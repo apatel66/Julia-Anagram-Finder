@@ -1,4 +1,4 @@
-#Determines if an anagram by splitting into array, sortinf them alphabetically then comparing
+#Determines if an anagram by splitting into array, sorting them alphabetically then comparing
 function is_anagram(x, y)
    return sort(split(x,"")) == sort(split(y,""))
 end
